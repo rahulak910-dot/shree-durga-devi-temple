@@ -98,15 +98,13 @@ body{
 
 .hero{
     height:100vh;
-    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-    url("temple.jpg");
+    background-image:
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("temple.jpg");
     background-size:cover;
     background-position:center;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    color:white;
+    background-repeat:no-repeat;
+ 
 }
 
 .hero-content{
