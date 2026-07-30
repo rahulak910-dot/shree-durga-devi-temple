@@ -23,15 +23,18 @@
         </div>
 
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Donation</a></li>
-            <li><a href="#">Contact</a></li>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#history">History</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#donation">Donation</a>
+            <a href="#contact">Contact</a>
         </ul>
 
         <a href="#" class="donate-btn">Donate</a>
+        <div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
     </nav>
 </header>
 <section class="hero">
@@ -56,6 +59,36 @@
 
     </div>
 </section>
+<section class="countdown">
+
+    <h2>🛕 Devi Pooja Countdown</h2>
+    <p>Join us for the Grand Celebration on 11 August</p>
+
+    <div class="countdown-box">
+
+        <div>
+            <h1 id="days">00</h1>
+            <span>Days</span>
+        </div>
+
+        <div>
+            <h1 id="hours">00</h1>
+            <span>Hours</span>
+        </div>
+
+        <div>
+            <h1 id="minutes">00</h1>
+            <span>Minutes</span>
+        </div>
+
+        <div>
+            <h1 id="seconds">00</h1>
+            <span>Seconds</span>
+        </div>
+
+    </div>
+
+</section>
 <section class="stats">
     <div class="stat-box">
         <h2>5000+</h2>
@@ -73,11 +106,33 @@
     </div>
 
     <div class="stat-box">
-        <h2>30%</h2>
+        <h2>05%</h2>
         <p>Temple Rebuilt</p>
     </div>
 </section>
-<section class="gallery" id="gallery">
+<section class="festival-banner">
+
+    <div class="festival-content">
+
+        <h3>🌺 Grand Festival 🌺</h3>
+
+        <h1>ಶ್ರೀ ದುರ್ಗಾದೇವಿ ವ ಮಹಾರದ ಯಲ್ಲಮ್ಮ ಪೂಜೆ</h1>
+
+        <h2>11 August 2026</h2>
+
+        <p>
+            We warmly invite all devotees to participate in the
+            Grand Devi Pooja and seek the blessings of Goddess Durga.
+        </p>
+
+        <a href="#events" class="festival-btn">
+            View Festival Details
+        </a>
+
+    </div>
+
+</section>
+<section class="gallery reveal" id="gallery">
 
     <div class="section-title">
         <h2>Temple Gallery</h2>
@@ -113,7 +168,7 @@
 
 </div>
 </section>
-<section class="history" id="history">
+<section class="history reveal" id="history">
 
     <div class="history-image">
         <img src="temple6.jpg" alt="Temple">
@@ -146,7 +201,7 @@
 
 </section>
 
-<section class="committee" id="committee">
+<section class="committee reveal" id="committee">
 
     <div class="section-title">
         <h2>Temple Trust Committee</h2>
@@ -249,7 +304,7 @@
 
 </section>
 
-<section class="events" id="events">
+<section class="events reveal" id="events">
 
     <div class="section-title">
         <h2>Upcoming Events</h2>
@@ -288,7 +343,7 @@
         Welcome to Shree Durga Devi Temple, Byadageri Oni • Temple Reconstruction Work in Progress • Donations are Welcome • Thank You for Supporting Our Temple
     </marquee>
 </section>
-<section class="about" id="about">
+<section class="about reveal" id="about">
 
     <div class="about-image">
         <img src="temple.jpg" alt="Temple">
@@ -310,7 +365,7 @@
     </div>
 
 </section>
-<section class="rebuild">
+<section class="rebuild reveal">
 
     <div class="rebuild-content">
         <h2>Temple Rebuilding Project</h2>
@@ -325,14 +380,14 @@
             <div class="progress"></div>
         </div>
 
-        <p><strong>25% Completed</strong></p>
+        <p><strong>5% Completed</strong></p>
 
         <a href="#" class="support-btn">Support the Temple</a>
 
     </div>
 
 </section>
-<section class="donation" id="donation">
+<section class="donation reveal" id="donation">
 
     <div class="section-title">
         <h2>Support Our Temple</h2>
@@ -381,9 +436,10 @@
         </div>
 
     </div>
+    
 
 </section>
-<section class="contact" id="contact">
+<section class="contact reveal" id="contact">
 
     <div class="section-title">
         <h2>Contact Us</h2>
@@ -427,7 +483,7 @@
     </div>
 
 </section>
-<footer class="footer">
+<footer class="footer reveal">
 
     <div class="footer-container">
 
@@ -474,5 +530,25 @@
     </div>
 
 </footer>
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close">&times;</span>
+
+    <img id="lightbox-img" src="" alt="Temple Image">
+
+</div>
+<button id="topBtn" title="Go to top">⬆</button>
+<div class="festival-alert">
+    🌺 Welcome Devotees! Grand Devi Pooja on <strong>11 August 2026</strong>. We warmly invite everyone to participate. 🙏
+</div>
+<div id="preloader">
+    <div class="loader">
+        🛕
+    </div>
+
+    <h2>Shree Durga Devi Temple</h2>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
