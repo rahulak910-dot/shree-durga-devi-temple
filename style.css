@@ -1037,11 +1037,6 @@ body{
     animation:spin 2s infinite linear;
 }
 
-#preloader h2{
-    margin-top:20px;
-    color:#FFD700;
-    font-size:30px;
-}
 
 @keyframes spin{
     from{
